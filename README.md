@@ -10,7 +10,7 @@ If you clone this repository then please do it in the following way so that all 
 
 ``` 
 git clone --recursive https://github.com/ChristophSchmidl/ir-terrier-docker.git
-```*
+```
 
 If you already cloned this repository in the standard way and discovered that its submodules are missing then you can still pull in its submodules by using the following command:
 
@@ -32,6 +32,5 @@ You are now connected to the terrier container and can use terrier as usual, i.e
 
 If you want to exit the box, write``èxit```.
 If you want to shutdown the container, write ```docker-compose down```.
-
 
 

@@ -30,7 +30,7 @@ When docker-compose is done you can check the container id by invoking ```docker
 
 You are now connected to the terrier container and can use terrier as usual, i.e. ```./bin/terrier interactive```.
 
-If you want to exit the box, write``èxit```.
+If you want to exit the box, write ```exit```.
 If you want to shutdown the container, write ```docker-compose down```.
 
 

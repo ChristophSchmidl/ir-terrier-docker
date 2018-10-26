@@ -10,7 +10,7 @@ If you clone this repository then please do it in the following way so that all 
 
 ``` 
 git clone --recursive https://github.com/ChristophSchmidl/ir-terrier-docker.git
-```
+```*
 
 If you already cloned this repository in the standard way and discovered that its submodules are missing then you can still pull in its submodules by using the following command:
 
@@ -18,7 +18,7 @@ If you already cloned this repository in the standard way and discovered that it
 git submodule update --init
 # if there are nested submodules:
 git submodule update --init --recursive
-``
+```
 
 ## Usage
 

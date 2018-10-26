@@ -1,18 +1,15 @@
 version: "3.3"
 
 services:
-  terrier-base:
-    build: ./Docker
-    ports:
-    - 80:3000
-  environment:
-    - MONGO_URI=mongodb://sampledb/sample
-  networks:
+  terrier:
+    build: .
+    volumes:
+    - ./:/terrier
+    networks:
     - terriernet    
-
-
-
+    tty: true
+    stdin_open: true
 
 networks:
   terriernet:
-    driver: bridge    
+    driver: bridge

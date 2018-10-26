@@ -1,0 +1,8 @@
+[submodule "terrier-core"]
+	path = terrier-core
+	url = https://github.com/terrier-org/terrier-core.git
+	branch = 5.x
+[submodule "terrier-desktop"]
+	path = terrier-desktop
+	url = https://github.com/terrier-org/terrier-desktop.git
+	branch = 5.0

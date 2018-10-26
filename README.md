@@ -4,15 +4,19 @@
 
 This docker setup is using terrier-core and terrier-desktop version 5.x as submodules.
 
+## Installation
+
 If you clone this repository then please do it in the following way so that all of its submodules get included as well:
 
-`` git clone --recursive https://github.com/ChristophSchmidl/ir-terrier-docker.git
-``
+``` 
+git clone --recursive https://github.com/ChristophSchmidl/ir-terrier-docker.git
+```
 
-If you already cloned this repository in the standard way and discovered that its submodules are missing then you can still pull in its submodules:
+If you already cloned this repository in the standard way and discovered that its submodules are missing then you can still pull in its submodules by using the following command:
 
-`` git submodule update --init
+``` 
+git submodule update --init
 # if there are nested submodules:
 git submodule update --init --recursive
-``
+```
 
